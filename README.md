@@ -17,3 +17,8 @@ This will be my freecodecamp responsive_web_design repository to store my code a
 * FreeCodeCamp
 * DavidGray
 * CoderCoder
+
+
+# Deadline
+HTML = February 21
+CSS = March 4
