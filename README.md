@@ -4,7 +4,7 @@ Responsive Web Design
 
 ## Getting Started
 
-This will be my freecodecamp responsive_web_design repository to store my code and log my progress for the certifications
+This will be my freecodecamp responsive_web_design repository to store my code and log my progress.
 
 
 ## Author
@@ -18,7 +18,9 @@ This will be my freecodecamp responsive_web_design repository to store my code a
 * DavidGray
 * CoderCoder
 
+### Goal
+Get certification for responsive web design
 
-# Deadline
+### Deadline
 HTML = February 21
 CSS = March 4
