@@ -1,106 +1,38 @@
-body {
-	font-family: sans-serif;
-	background: url('https://img.freepik.com/free-vector/restaurant-mural-wallpaper_52683-47493.jpg?w=1060&t=st=1676813163~exp=1676813763~hmac=a8e0270f6fbc878dd297335409e17320a2a8cc4d2e0f06c6ec215fd4d195b2e4')
-		no-repeat center center/cover;
-	background-position: bottom;
-	background-repeat: no-repeat;
-	background-size: cover;
-	padding: 20px;
-	width: 100%;
-	height: 93vh;
-	position: relative;
-}
-
-.menu {
-	width: 80%;
-	max-width: 500px;
-	background-color: burlywood;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 20px;
-}
-
-hr {
-	height: 2px;
-	background-color: brown;
-	border-color: brown;
-}
-
-h1,
-h2,
-p {
+h1 {
 	text-align: center;
 }
 
-h1,
-h2 {
-	font-family: Impact, serif;
+.container {
+	background-color: rgb(255, 255, 255);
+	padding: 10px 0;
+}
+.marker {
+	height: 25px;
+	width: 200px;
+	margin: 10px auto;
 }
 
-h1 {
-	font-size: 40px;
-	margin-top: 0;
-	margin-bottom: 15px;
+.sleeve {
+	width: 110px;
+	height: 25px;
+	background-color: white;
 }
 
-h2 {
-	font-size: 30px;
+.red {
+	background: linear-gradient(
+		rgb(122, 74, 14),
+		rgb(245, 62, 113),
+		rgb(162, 27, 27)
+	);
 }
 
-a {
-	color: #000;
+.green {
+	background: linear-gradient(#55680d, #71f53e, #116c31);
 }
-
-a:visited {
-	color: black;
-}
-
-a:hover {
-	color: brown;
-}
-
-a:active {
-	color: brown;
-}
-
-img {
-	display: block;
-	margin-top: -25px;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.flavor,
-.dessert {
-	width: 75%;
-	text-align: left;
-}
-
-.price {
-	width: 25%;
-	text-align: right;
-}
-
-.item p {
-	display: inline-block;
-	margin: 5px 0;
-	font-size: 18px;
-}
-
-.established {
-	font-style: italic;
-}
-
-.bottom-line {
-	margin-top: 25px;
-}
-
-/* FOOTER */
-
-footer {
-	font-size: 14px;
-}
-
-.address {
-	margin-bottom: 5px;
+.blue {
+	background: linear-gradient(
+		hsl(186, 76%, 16%),
+		hsl(223, 90%, 60%),
+		hsl(240, 56%, 42%)
+	);
 }
