@@ -22,12 +22,14 @@ Get certification for responsive web design
 
 ### Deadline
 
-HTML = February 21
-CSS = March 4
+- HTML = February 21,
+- CSS = March 4
 
 ### Milestones
 
 1. Camper menu
    ![Camper menu](img/camper_menu.png)
 2. CSS Color marker
-3. ![Color marker](img/CSS_color_markers.png)
+   ![Color marker](img/CSS_color_markers.png)
+3. Registration Form
+   ![Registration Form](/img/registration_form.png)
