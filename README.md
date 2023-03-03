@@ -33,3 +33,5 @@ Get certification for responsive web design
    ![Color marker](img/CSS_color_markers.png)
 3. Registration Form
    ![Registration Form](/img/registration_form.png)
+4. Survey Form
+5. ![Survey Form](img/survey_form.png)
