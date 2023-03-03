@@ -37,3 +37,5 @@ Get certification for responsive web design
    ![Survey Form](img/survey_form.png)
 5. Rothko Paint
    ![Rothko Paint](img/rothko.png)
+6. Photo Gallery
+   ![Photo Gallery](/img/photo-gallery.png)
