@@ -39,3 +39,5 @@ Get certification for responsive web design
    ![Rothko Paint](img/rothko.png)
 6. Photo Gallery
    ![Photo Gallery](/img/photo-gallery.png)
+7. Nutrition Label
+   ![Nutrition Label](img/nutrition_label.png)
