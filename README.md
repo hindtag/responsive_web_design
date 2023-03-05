@@ -41,3 +41,5 @@ Get certification for responsive web design
    ![Photo Gallery](/img/photo-gallery.png)
 7. Nutrition Label
    ![Nutrition Label](img/nutrition_label.png)
+8. Accessibility
+   ![Accessibility](img/accessibility.png)
