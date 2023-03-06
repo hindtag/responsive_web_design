@@ -43,5 +43,7 @@ Get certification for responsive web design
    ![Nutrition Label](img/nutrition_label.png)
 8. Accessibility
    ![Accessibility](img/accessibility.png)
-9. Balance Sheet
-   ![Balance Sheet](img/balance_sheet.png)
+9. Tribute Page
+   ![Tribute Page](img/tribute_page.png)
+10. Balance Sheet
+    ![Balance Sheet](img/balance_sheet.png)
