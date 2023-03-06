@@ -47,3 +47,5 @@ Get certification for responsive web design
    ![Tribute Page](img/tribute_page.png)
 10. Balance Sheet
     ![Balance Sheet](img/balance_sheet.png)
+11. Picasso Painting
+    ![Picasso Painting](img/picasso_painting.png)
