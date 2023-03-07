@@ -51,3 +51,5 @@ Get certification for responsive web design
     ![Picasso Painting](img/picasso_painting.png)
 12. Piano
     ![Piano](img/piano.png)
+13. Technical Documentation
+    ![Technical Documentation](img/technical_documentation.png)
