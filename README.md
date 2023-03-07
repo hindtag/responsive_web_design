@@ -49,3 +49,5 @@ Get certification for responsive web design
     ![Balance Sheet](img/balance_sheet.png)
 11. Picasso Painting
     ![Picasso Painting](img/picasso_painting.png)
+12. Piano
+    ![Piano](img/piano.png)
