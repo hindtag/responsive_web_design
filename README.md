@@ -53,3 +53,7 @@ Get certification for responsive web design
     ![Piano](img/piano.png)
 13. Technical Documentation
     ![Technical Documentation](img/technical_documentation.png)
+14. Skyline
+    ![Skyline](img/skyline.png)
+15. Magazine
+    ![Magazine](img/magazine.png)
