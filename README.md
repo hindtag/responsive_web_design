@@ -57,3 +57,5 @@ Get certification for responsive web design
     ![Skyline](img/skyline.png)
 15. Magazine
     ![Magazine](img/magazine.png)
+16. Product Landing Page
+    ![Product Landing Page](img/product_landing_page.png)
