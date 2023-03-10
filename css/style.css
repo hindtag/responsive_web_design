@@ -1,118 +1,182 @@
-* {
-	box-sizing: border-box;
+:root {
+	--penguin-face: white;
 }
 
-header {
-	margin: 0 auto;
-	text-align: center;
+body {
+	background: linear-gradient(45deg, rgb(118, 201, 255), rgb(247, 255, 222));
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
 }
 
-main {
-	margin: 5% auto;
-	display: flex;
-	justify-content: center;
+.left-mountain {
+	width: 300px;
+	height: 300px;
+	background: linear-gradient(rgb(203, 241, 228), rgb(80, 183, 255));
+	position: absolute;
+	transform: skew(0deg, 44deg);
+	z-index: 2;
+	margin-top: 100px;
 }
 
-.wheel {
-	border: 2px solid black;
+.back-mountain {
+	width: 300px;
+	height: 300px;
+	background: linear-gradient(rgb(203, 241, 228), rgb(47, 170, 255));
+	position: absolute;
+	z-index: 1;
+	transform: rotate(45deg);
+	left: 110px;
+	top: 225px;
+}
+
+.sun {
+	width: 200px;
+	height: 200px;
+	background-color: yellow;
+	position: absolute;
 	border-radius: 50%;
-	margin-left: 50px;
-	position: absolute;
-	width: 55vw;
-	height: 55vw;
-	max-height: 500px;
-	max-width: 500px;
-	animation-name: wheel;
-	animation-duration: 10s;
-	animation-iteration-count: infinite;
-	animation-timing-function: linear;
+	top: -75px;
+	right: -75px;
 }
 
-.line {
-	background-color: black;
+.penguin {
+	width: 300px;
+	height: 300px;
+	margin: auto;
+	margin-top: 75px;
+	z-index: 4;
+	position: relative;
+}
+
+.penguin * {
+	position: absolute;
+}
+
+.penguin-head {
 	width: 50%;
-	height: 2px;
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	transform-origin: 0% 0%;
+	height: 45%;
+	background: linear-gradient(45deg, gray, rgb(239, 240, 228));
+	border-radius: 70% 70% 65% 65%;
+	top: 10%;
+	left: 25%;
+	z-index: 1;
 }
 
-.line:nth-of-type(2) {
-	transform: rotate(60deg);
+.face {
+	width: 60%;
+	height: 70%;
+	background-color: var(--penguin-face);
+	border-radius: 70% 70% 60% 60%;
+	top: 15%;
 }
 
-.line:nth-of-type(3) {
-	transform: rotate(120deg);
+.face.left {
+	left: 5%;
 }
-.line:nth-of-type(4) {
-	transform: rotate(180deg);
-}
-.line:nth-of-type(5) {
-	transform: rotate(240deg);
-}
-.line:nth-of-type(6) {
-	transform: rotate(300deg);
+.face.right {
+	right: 5%;
 }
 
-.cabin {
-	background-color: red;
+.chin {
+	width: 90%;
+	height: 70%;
+	background-color: var(--penguin-face);
+	top: 25%;
+	left: 5%;
+	border-radius: 70% 70% 100% 100%;
+}
+
+.eye {
+	width: 15%;
+	height: 17%;
+	background-color: black;
+	top: 45%;
+	border-radius: 50%;
+}
+
+.eye.left {
+	left: 25%;
+}
+.eye.right {
+	right: 25%;
+}
+
+.eye-lid {
+	width: 150%;
+	height: 100%;
+	background-color: var(--penguin-face);
+	top: 25%;
+	left: -23%;
+	border-radius: 50%;
+}
+
+.blush {
+	width: 15%;
+	height: 10%;
+	background-color: pink;
+	top: 65%;
+	border-radius: 50%;
+}
+
+.blush.left {
+	left: 15%;
+}
+.blush.right {
+	right: 15%;
+}
+
+.beak {
+	height: 10%;
+	background-color: orange;
+	border-radius: 50%;
+}
+
+.beak.top {
 	width: 20%;
-	height: 20%;
+	top: 60%;
+	left: 40%;
+}
+
+.beak.bottom {
+	width: 16%;
+	top: 65%;
+	left: 42%;
+}
+
+.penguin-body {
+	width: 53%;
+	height: 45%;
+	background: linear-gradient(
+		45deg,
+		rgb(134, 133, 133) 0%,
+		rgb(234, 231, 231) 25%,
+		var(--penguin-face) 67%
+	);
+	border-radius: 80% 80% 100% 100%;
+	top: 40%;
+	left: 23.5%;
+}
+
+.penguin-body::before {
+	content: '';
 	position: absolute;
-	border: 2px solid;
-	transform-origin: 50% 0%;
-	animation: cabins 10s ease-in-out infinite;
+	width: 50%;
+	height: 45%;
+	background-color: gray;
+	top: 10%;
+	left: 25%;
+	border-radius: 0% 0% 100% 100%;
+	opacity: 70%;
 }
 
-.cabin:nth-of-type(1) {
-	right: -8.5%;
-	top: 50%;
-}
-.cabin:nth-of-type(2) {
-	right: 17%;
-	top: 93.5%;
-}
-.cabin:nth-of-type(3) {
-	right: 67%;
-	top: 93.5%;
-}
-.cabin:nth-of-type(4) {
-	left: -8.5%;
-	top: 50%;
-}
-.cabin:nth-of-type(5) {
-	left: 17%;
-	top: 7%;
-}
-.cabin:nth-of-type(6) {
-	right: 17%;
-	top: 7%;
-}
-
-@keyframes wheel {
-	0% {
-		transform: rotate(0deg);
-	}
-	100% {
-		transform: rotate(360deg);
-	}
-}
-
-@keyframes cabins {
-	0% {
-		transform: rotate(0deg);
-	}
-	25% {
-		background-color: yellow;
-	}
-	50% {
-		background-color: purple;
-	}
-	75% {
-		background-color: yellow;
-	}
-	100% {
-		transform: rotate(-360deg);
-	}
+.ground {
+	width: 100vw;
+	height: 400px;
+	background: linear-gradient(90deg, rgb(88, 175, 236), rgb(182, 255, 255));
+	z-index: 3;
+	position: absolute;
+	margin-top: -58px;
 }
