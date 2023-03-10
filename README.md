@@ -61,3 +61,5 @@ Get certification for responsive web design
     ![Product Landing Page](img/product_landing_page.png)
 17. Animated Ferris Wheel
     ![Animated Ferris Wheel](img/animated_ferris_wheel.png)
+18. Flappy Penguin
+    ![Flappy Penguin](img/flappy_penguin.png)
