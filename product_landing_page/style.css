@@ -135,6 +135,8 @@ p {
 .card {
 	display: flex;
 	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: 10px;
 }
 .inner-card {
 	display: grid;
@@ -166,13 +168,19 @@ p {
 	padding: 0 15px;
 }
 
-footer {
+.footer-links {
 	display: flex;
 	flex-direction: row;
+	background-color: var(--grey);
+	color: var(--white);
+	justify-content: space-between;
+	justify-content: flex-end;
 }
 
-footer > li {
-	display: flex;
+.footer-links > li {
+	font-size: 2rem;
+	padding: 10px;
+	list-style: none;
 }
 
 @media only screen and (min-width: 600px) {
